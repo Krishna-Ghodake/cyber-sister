@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# 🛡️ CyberSister
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **CyberSister is a modern cybersecurity awareness platform designed to educate, engage, and empower users through an interactive and visually appealing web experience.**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+🔗 **https://cybersisterhood18.netlify.app/**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 About the Project
 
-### `npm test`
+CyberSister is a responsive cybersecurity awareness platform built with **React** and **Vite**. It combines modern UI/UX design, smooth animations, and educational content to deliver an engaging experience across desktop, tablet, and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project focuses on promoting digital safety while maintaining clean design, accessibility, responsiveness, and performance.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📱 Fully Responsive Design
+- 🌙 Dark Mode Interface
+- ✨ Smooth UI Animations & Transitions
+- 🎨 Modern & Clean User Interface
+- ⚡ Fast Loading Performance
+- 🖱️ Interactive User Experience
+- 🔒 Cybersecurity-Themed Design
+- ♿ User-Friendly Navigation
+- 💻 Cross-Device Compatibility
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### UI & Styling
+- CSS Flexbox
+- CSS Grid
+- CSS Animations
+- CSS Transitions
+- Responsive Web Design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Deployment & Version Control
+- Netlify
+- Git
+- GitHub
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📸 Website Preview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> *(Add screenshot here)*
 
-### Code Splitting
+### About Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> *(Add screenshot here)*
 
-### Analyzing the Bundle Size
+### Features Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> *(Add screenshot here)*
 
-### Making a Progressive Web App
+### Contact Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> *(Add screenshot here)*
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Run Locally
 
-### Deployment
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/Krishna-Ghodake/cyber-sister.git
+```
 
-### `npm run build` fails to minify
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```
+cyber-sister/
+│
+├── public/
+├── src/
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 👨‍💻 Developer
+
+**Krishna Ghodake**
+
+GitHub: https://github.com/Krishna-Ghodake
+
+---
+
+⭐ If you like this project, consider giving it a **Star**.
