@@ -1,0 +1,42 @@
+/* ===== GLOBAL THEME (SAFE MODE) ===== */
+
+:root {
+  --primary: #7c3aed;        /* cyber purple */
+  --secondary: #ec4899;      /* accent pink */
+  --dark: #0f172a;           /* dark navy */
+  --light: #f8fafc;          /* light background */
+  --card-bg: #ffffff;
+  --border-soft: #e5e7eb;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --radius: 16px;
+}
+
+/* Global reset safety */
+* {
+  box-sizing: border-box;
+}
+
+/* App background */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background: linear-gradient(135deg, #f9fafb, #eef2ff);
+  color: var(--text-main);
+}
+
+/* Universal card base (DOES NOT override existing cards) */
+.ui-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px;
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Center helper (optional use later) */
+.center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

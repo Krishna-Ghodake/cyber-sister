@@ -1,0 +1,208 @@
+.admin-page-wrapper {
+  min-height: 100vh;
+  background: #f4f6fa;
+  padding: 40px;
+}
+
+.admin-sos-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.admin-sos-container h1 {
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.admin-sos-container p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.sos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sos-table th,
+.sos-table td {
+  padding: 14px;
+  border: 1px solid #ddd;
+}
+
+.sos-table th {
+  background: #0f172a;
+  color: white;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.active {
+  background: #ffe5e5;
+  color: #c00000;
+}
+
+.status.resolved {
+  background: #e6f7ec;
+  color: #0f9d58;
+}
+
+/* ===== SOS SUMMARY BAR ===== */
+
+.sos-summary {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.active-count {
+  color: #c00000;
+  font-weight: bold;
+}
+
+.resolve-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.resolve-btn:hover {
+  background: #1e293b;
+}
+
+.resolve-btn {
+  background: #0f9d58;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resolve-btn:hover {
+  background: #0c7c45;
+}
+
+.map-btn {
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #1e40af;
+  color: white;
+  font-size: 13px;
+}
+
+.map-btn:hover {
+  background: #1e3a8a;
+}
+
+.resolve-btn {
+  padding: 6px 12px;
+  background: #0f172a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.resolve-btn:hover {
+  background: #1e293b;
+}
+
+.resolve-btn {
+  background: #0f9d58;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.resolve-btn:hover {
+  background: #0b7d45;
+}
+
+.resolve-btn {
+  background: #0f172a;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resolve-btn:hover {
+  background: #1e293b;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.filter-bar button {
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #2c3e50;
+  color: white;
+}
+
+.filter-bar .danger {
+  background: #c0392b;
+}
+
+.filter-bar button:hover {
+  opacity: 0.85;
+}
+.sos-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.status-active {
+  color: red;
+  font-weight: bold;
+}
+
+.status-resolved {
+  color: green;
+  font-weight: bold;
+}
+
+.resolve-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resolve-btn:hover {
+  background: darkgreen;
+}

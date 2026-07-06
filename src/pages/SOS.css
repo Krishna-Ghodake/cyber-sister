@@ -1,0 +1,50 @@
+/* Full screen center alignment */
+.sos-container {
+  min-height: 100vh;           /* full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     /* vertical center */
+  align-items: center;         /* horizontal center */
+  gap: 30px;                   /* equal spacing */
+  background: #f8f9fb;
+  padding: 40px;               /* equal padding on all sides */
+  box-sizing: border-box;
+}
+
+/* Heading */
+.sos-container h1 {
+  font-size: 2rem;
+  color: #222;
+  margin: 0;
+}
+
+/* SOS button */
+.sos-btn {
+  background: #d62828;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(214, 40, 40, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.sos-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 30px rgba(214, 40, 40, 0.5);
+}
+
+.sos-input {
+  width: 100%;
+  max-width: 320px;
+  padding: 12px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+

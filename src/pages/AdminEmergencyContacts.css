@@ -1,0 +1,92 @@
+.admin-contacts-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contacts-table th {
+  background: #0f172a;
+  color: white;
+  padding: 12px;
+}
+
+.contacts-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.admin-contacts-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contacts-table th,
+.contacts-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.contacts-table thead {
+  background: #0f172a;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  padding: 8px;
+}
+
+.contact-form button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.danger {
+  background: #c0392b;
+  color: white;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
