@@ -58,20 +58,37 @@ The project focuses on promoting digital safety while maintaining clean design, 
 ## 📸 Website Preview
 
 ### Home Page
+![Home Page](screenshots/home_page.png)
 
-> *(Add screenshot here)*
+---
 
-### About Section
+### Learn Page
+![Learn Page](screenshots/learn_page.png)
 
-> *(Add screenshot here)*
+---
 
-### Features Section
+### Emergency Tools
+![Emergency Tools](screenshots/eme_tools_page.png)
 
-> *(Add screenshot here)*
+---
 
-### Contact Section
+### Dark Mode
+![Dark Mode](screenshots/dark_mode.png)
 
-> *(Add screenshot here)*
+---
+
+### Cyber Risk Assessment
+![Cyber Risk](screenshots/cyber_risk_page.png)
+
+---
+
+### Anonymous Reporting
+![Anonymous Reporting](screenshots/anonymous_reporting_page.png)
+
+---
+
+### Smart Community
+![Smart Community](screenshots/smart_community_page.png)
 
 ---
 
